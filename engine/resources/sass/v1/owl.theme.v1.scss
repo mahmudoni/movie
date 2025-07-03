@@ -1,0 +1,30 @@
+.owl-nav {
+    position: absolute;
+    top: -3.5rem;
+    right: 0;
+    -webkit-tap-highlight-color: transparent;
+    .owl-prev,
+    .owl-next {
+        span {
+            display: none;
+        }
+    }
+    .owl-prev {
+        &:before {
+            content: "\f053";
+            font-family: 'FontAwesome';
+            padding: .5rem;
+        }
+    }
+    .owl-next {
+        &:before {
+            content: "\f054";
+            font-family: 'FontAwesome';
+            padding: .5rem;
+        }
+    }
+    .disabled {
+        opacity: .5;
+        cursor: default;
+    }
+}

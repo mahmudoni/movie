@@ -1,0 +1,55 @@
+// Body
+// $body-bg: #161c23;
+
+// Typography
+$font-family-sans-serif: 'Muli', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// V1 Theme
+$body-bg: #161c23;
+$body-color: #f8fbff;
+$fade-bg: #1c242c;
+$theme-color: #40d83b;
+$theme-color-hover : darken($theme-color, 15%);
+
+
+// Text, icons, hover states
+$primary-foreground-color: $theme-color !default;
+
+// Control backgrounds (control bar, big play, menus)
+$primary-background-color: $fade-bg !default;
+$primary-background-transparency: 0.7 !default;
+
+// Hover states, slider backgrounds
+$secondary-background-color: lighten($primary-background-color, 33%) !default;
+$secondary-background-transparency: 0.5 !default;
+
+// Avoiding helvetica: issue #376
+$text-font-family: Muli, sans-serif !default;
+
+// Using the '--' naming for component-specific styles
+$big-play-button--border-size: 0.15em !default;
+$big-play-button--line-height: 2.5em !default;
+$big-play-button--height: $big-play-button--line-height + ($big-play-button--border-size * 2) !default;
+$big-play-button--width: $big-play-button--height !default;
+$big-play-button--transparency: 0.8 !default;
+
+
+
+// $theme-colors: (
+//   "theme-color": #e90e0e,
+//   "dark" : #10141a
+// );
